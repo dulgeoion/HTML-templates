@@ -71,9 +71,10 @@ header img {
 .profile-avatar {
 	border-radius: 50%;
 	position: absolute;
-    top: -60px;
+    top: -70px;
     left: 50%;
-    margin-left: -60px;
+    margin-left: -65px;
+    border: 5px solid white;
 
 }
 
@@ -90,7 +91,29 @@ header img {
     padding-bottom: 10px;
 }
 
-.panel-body h4 {
-	
+.panel-body p {
+	font-weight: bold;
+	text-decoration: underline;
 }
 
+
+/* POST ---------------------------*/
+
+.profile-img {
+	width: 75px;
+	height: 75px;
+	border-radius: 50px;
+}
+
+.post-functions img {
+	width: 10px;
+}
+
+.profile-img-wrapper {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.post-content {
+	padding-left: 25px;
+}
