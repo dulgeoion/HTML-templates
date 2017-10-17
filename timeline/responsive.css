@@ -1,0 +1,21 @@
+
+@media screen and (max-width: 640px) { /*682*/
+	.search-text{
+		width: 60%;
+	}
+	.menu-bar img{
+		margin-left: 15%;
+	}
+}	
+
+@media (max-width: 768px) { /*682*/
+	.border-right-grey {
+		border-right: none;
+	}
+}
+
+@media (min-width: 768px) { /*682*/
+	.border-bottom-grey {
+		border-bottom: none !important;
+	}
+}

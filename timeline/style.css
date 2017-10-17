@@ -3,12 +3,9 @@ body {
 	padding: 0;
 }
 
-@media screen and (max-width: 375px) {
-	
-}
-
-.container {
-
+.container .nopadding{
+	padding-right: 0;
+	padding-left: 0;
 }
 header {
 	background-color: #5682a3;
@@ -42,11 +39,11 @@ header img {
 }
 .search-text {
 	height: 25px;
+	width: 75%;
 	border-radius: 2px;
 	border-style: none;
 	padding-left: 3%;
 	color: grey;
-	background-image: url("img/seach.svg") no-repeat;
 	background-position: 2px 3px;
 }
 
@@ -80,8 +77,12 @@ header img {
 
 }
 
-.border-grey{
+.border-right-grey {
 	border-right: 1px solid #ddd;
+}
+
+.border-bottom-grey {
+	border-bottom: 1px solid #ddd;
 }
 
 .panel-body {
@@ -92,3 +93,4 @@ header img {
 .panel-body h4 {
 	
 }
+
