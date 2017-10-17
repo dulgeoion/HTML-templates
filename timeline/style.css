@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 375px) {
+	
+}
+
+.container {
+
+}
+header {
+	background-color: #5682a3;
+	height: 50px;
+}
+
+header img {
+	width: 24px;
+}
+.menu-bar, .search {
+	padding: 13px 3%;
+}
+
+.logo {
+	display: flex;
+	height: 50px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo h1 {
+	color: white;
+	margin: 0;
+	font-size: 1.3em;
+	text-align: center;	
+}
+
+.search img{
+	margin-right: 3%;
+}
+.search-text {
+	height: 25px;
+	border-radius: 2px;
+	border-style: none;
+	padding-left: 3%;
+	color: grey;
+	background-image: url("img/seach.svg") no-repeat;
+	background-position: 2px 3px;
+}
+
+.content {
+	border-right: 1px #ddd solid;
+	border-left: 1px #ddd solid;
+	padding-top: 30px;
+	
+}
+.name {
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+
+.stats-panel{ 
+	position: relative;
+	text-align: center;
+}
+
+.stats-panel .panel-body {
+	margin-top: 50px;
+}
+
+.profile-avatar {
+	border-radius: 50%;
+	position: absolute;
+    top: -60px;
+    left: 50%;
+    margin-left: -60px;
+
+}
+
+.border-grey{
+	border-right: 1px solid #ddd;
+}
+
+.panel-body {
+	padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.panel-body h4 {
+	
+}
