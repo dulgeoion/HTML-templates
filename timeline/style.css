@@ -118,6 +118,39 @@ header img {
 	padding-left: 25px;
 }
 
+/* ADDING POST ----------------------*/
+
+.user-post-input {
+	height: 100px;
+	width: 100%;
+	background-color: #dfdfdf;
+	border-radius: 3px;
+}
+#user-textarea {
+	width: 98%;
+	margin: 1%;
+	border-radius: 5px;
+	padding: 2px 3px; 
+	resize: none;
+}
+
+.input {
+	margin-bottom: 0;
+}
+
+.tags {
+	margin: 1%;
+	}
+
+.additional-panel {
+	width: 100%;
+	margin: 0;
+}
+
+.drop-tags {
+	padding-left: 0;
+	padding-right: 0;
+}
 /* NAVBAR MENU -------------------*/
 .menu-list {
 	left: 6%;
