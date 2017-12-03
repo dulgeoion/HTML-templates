@@ -100,8 +100,8 @@ header img {
 /* POST ---------------------------*/
 
 .profile-img {
-	width: 75px;
-	height: 75px;
+	/*width: 75px;
+	height: 75px;*/
 	border-radius: 50px;
 }
 

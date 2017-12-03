@@ -12,10 +12,19 @@
 	.border-right-grey {
 		border-right: none;
 	}
+
+	
 }
 
 @media (min-width: 768px) { /*682*/
 	.border-bottom-grey {
 		border-bottom: none !important;
+	}
+}
+
+
+@media (max-width: 450px) { /*682*/
+	.post-profile-name a h4 {
+		margin-top: 1px; 
 	}
 }
